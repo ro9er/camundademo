@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://todo/camunda_test?allowMultiQueries=true&useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    type: com.alibaba.druid.pool.DruidDataSource
+    password:
+    druid:
+      min-evictable-idle-time-millis: 3000
